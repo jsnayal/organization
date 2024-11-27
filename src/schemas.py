@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 
+# Pydantic models for Organization request, response and Admin Login request
 class OrgCreate(BaseModel):
     organization_name: str
     email: str
